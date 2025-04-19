@@ -10,6 +10,8 @@ public interface IEmployeePayrollService {
 
     Employee getEmployeePayrollDataById(long employeeId);
 
+    List<Employee> getEmployeesByDepartment(String department);
+
     Employee createEmployeePayrollData(EmployeePayrollDTO employeePayrollDTO);
 
     Employee updateEmployeePayrollData(long employeeId, EmployeePayrollDTO employeePayrollDTO);
