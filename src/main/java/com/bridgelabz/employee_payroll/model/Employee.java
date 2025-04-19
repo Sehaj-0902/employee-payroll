@@ -31,11 +31,11 @@ public @Data class Employee {
 
     public Employee() {}
 
-    public Employee(long employeeId, EmployeePayrollDTO employeePayrollDTO) {
-        this.updateEmployee(employeeId, employeePayrollDTO);
+    public Employee(EmployeePayrollDTO employeePayrollDTO) {
+        this.updateEmployeePayrollData(employeePayrollDTO);
     }
 
-    public void updateEmployee(long employeeId, EmployeePayrollDTO employeePayrollDTO) {
+    public void updateEmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
         this.name = employeePayrollDTO.name;
         this.salary = employeePayrollDTO.salary;
         this.gender = employeePayrollDTO.gender;
