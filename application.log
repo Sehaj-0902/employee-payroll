@@ -1,19 +1,32 @@
-2025-04-18T13:21:55.671+05:30  INFO 12812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 12812 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T13:21:55.673+05:30 DEBUG 12812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T13:21:55.673+05:30  INFO 12812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-04-18T13:22:04.221+05:30  WARN 12812 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T13:22:05.149+05:30  INFO 12812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 10.25 seconds (process running for 11.144)
-2025-04-18T13:22:05.149+05:30  INFO 12812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started
-2025-04-18T13:27:08.814+05:30 ERROR 12812 --- [employee-payroll] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+2025-04-19T00:31:08.533+05:30  WARN 7044 --- [employee-payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s498ms982µs400ns).
+2025-04-19T07:52:26.962+05:30  WARN 7044 --- [employee-payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h21m23s754ms188µs899ns).
+2025-04-19T09:46:59.475+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7204 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T09:46:59.480+05:30 DEBUG 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T09:46:59.483+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T09:47:06.911+05:30  WARN 7204 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T09:47:07.616+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.981 seconds (process running for 9.84)
+2025-04-19T09:47:07.626+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T09:47:07.631+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T09:51:03.837+05:30  WARN 7204 --- [employee-payroll] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 2025' could not be parsed at index 0]
+2025-04-19T09:51:15.608+05:30  WARN 7204 --- [employee-payroll] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 25": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 25' could not be parsed at index 0]
+2025-04-19T09:53:34.502+05:30  WARN 7204 --- [employee-payroll] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 2025' could not be parsed at index 0]
+2025-04-19T09:53:45.374+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7372 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T09:53:45.378+05:30 DEBUG 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T09:53:45.379+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T09:53:50.733+05:30  WARN 7372 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T09:53:51.402+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.811 seconds (process running for 7.485)
+2025-04-19T09:53:51.402+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T09:53:51.417+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T09:53:54.854+05:30 ERROR 7372 --- [employee-payroll] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.time.format.DateTimeParseException: Text '18 04 2025' could not be parsed at index 0] with root cause
 
-java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[na:na]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[na:na]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[na:na]
-	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[na:na]
-	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[na:na]
-	at com.bridgelabz.employee_payroll.service.EmployeePayrollService.getEmployeePayrollDataById(EmployeePayrollService.java:19) ~[classes/:na]
-	at com.bridgelabz.employee_payroll.controller.EmployeePayrollController.getEmployeePayrollData(EmployeePayrollController.java:31) ~[classes/:na]
+java.time.format.DateTimeParseException: Text '18 04 2025' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106) ~[na:na]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008) ~[na:na]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435) ~[na:na]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:420) ~[na:na]
+	at com.bridgelabz.employee_payroll.model.Employee.<init>(Employee.java:34) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.service.EmployeePayrollService.createEmployeePayrollData(EmployeePayrollService.java:28) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.controller.EmployeePayrollController.createEmployeePayrollData(EmployeePayrollController.java:41) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.18.jar:6.1.18]
@@ -25,8 +38,8 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.18.jar:6.1.18]
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.18.jar:6.1.18]
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.18.jar:6.1.18]
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
@@ -63,157 +76,120 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2025-04-18T13:36:08.052+05:30  INFO 2424 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 2424 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T13:36:08.057+05:30 DEBUG 2424 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T13:36:08.059+05:30  INFO 2424 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-04-18T13:36:14.867+05:30  WARN 2424 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T13:36:15.587+05:30  INFO 2424 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.299 seconds (process running for 8.933)
-2025-04-18T13:36:15.589+05:30  INFO 2424 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started
-2025-04-18T14:04:23.658+05:30  INFO 12856 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 12856 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T14:04:23.664+05:30 DEBUG 12856 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T14:04:23.665+05:30  INFO 12856 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T14:04:30.173+05:30  WARN 12856 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T14:04:30.827+05:30  INFO 12856 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.031 seconds (process running for 8.676)
-2025-04-18T14:04:30.843+05:30  INFO 12856 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T14:07:18.894+05:30  INFO 6408 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 6408 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T14:07:18.898+05:30 DEBUG 6408 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T14:07:18.901+05:30  INFO 6408 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T14:07:25.426+05:30  WARN 6408 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T14:07:26.099+05:30  INFO 6408 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.065 seconds (process running for 8.719)
-2025-04-18T14:07:26.115+05:30  INFO 6408 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T14:11:47.483+05:30  INFO 11564 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 11564 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T14:11:47.486+05:30 DEBUG 11564 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T14:11:47.488+05:30  INFO 11564 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T14:11:53.383+05:30  WARN 11564 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T14:11:54.071+05:30  INFO 11564 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.376 seconds (process running for 7.958)
-2025-04-18T14:11:54.075+05:30  INFO 11564 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in PROD Environment
-2025-04-18T14:12:20.304+05:30  INFO 8624 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8624 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T14:12:20.307+05:30 DEBUG 8624 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T14:12:20.307+05:30  INFO 8624 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T14:12:26.089+05:30  WARN 8624 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T14:12:26.759+05:30  INFO 8624 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.213 seconds (process running for 7.844)
-2025-04-18T14:12:26.774+05:30  INFO 8624 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18 14:13:52.158 [INFO] [main] [c.b.e.EmployeePayrollApplication:50] Starting EmployeePayrollApplication using Java 20 with PID 2596 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18 14:13:52.162 [DEBUG] [main] [c.b.e.EmployeePayrollApplication:51] Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18 14:13:52.163 [INFO] [main] [c.b.e.EmployeePayrollApplication:660] The following 1 profile is active: "prod"
-2025-04-18 14:13:58.315 [WARN] [main] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:236] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18 14:13:58.915 [INFO] [main] [c.b.e.EmployeePayrollApplication:56] Started EmployeePayrollApplication in 7.715 seconds (process running for 8.289)
-2025-04-18 14:13:58.922 [INFO] [main] [c.b.e.EmployeePayrollApplication:15] Employee Payroll App Started in PROD Environment
-2025-04-18T14:14:14.857+05:30  INFO 9812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 9812 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T14:14:14.861+05:30 DEBUG 9812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T14:14:14.862+05:30  INFO 9812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T14:14:20.593+05:30  WARN 9812 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T14:14:21.288+05:30  INFO 9812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.295 seconds (process running for 7.912)
-2025-04-18T14:14:21.288+05:30  INFO 9812 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T14:56:30.229+05:30  INFO 14632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14632 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T14:56:30.234+05:30 DEBUG 14632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T14:56:30.235+05:30  INFO 14632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T14:56:35.838+05:30  WARN 14632 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T14:56:36.462+05:30  INFO 14632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.999 seconds (process running for 7.591)
-2025-04-18T14:56:36.462+05:30  INFO 14632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T14:56:36.462+05:30  INFO 14632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T15:53:25.476+05:30  INFO 13968 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 13968 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T15:53:25.479+05:30 DEBUG 13968 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T15:53:25.481+05:30  INFO 13968 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T15:53:30.840+05:30  WARN 13968 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T15:53:31.498+05:30  INFO 13968 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.806 seconds (process running for 7.686)
-2025-04-18T15:53:31.503+05:30  INFO 13968 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T15:53:31.506+05:30  INFO 13968 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T19:09:40.387+05:30  INFO 5704 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 5704 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T19:09:40.391+05:30 DEBUG 5704 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T19:09:40.393+05:30  INFO 5704 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T19:09:48.614+05:30  WARN 5704 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T19:09:49.800+05:30  INFO 5704 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 10.218 seconds (process running for 10.817)
-2025-04-18T19:09:49.811+05:30  INFO 5704 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T19:09:49.816+05:30  INFO 5704 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T19:13:29.471+05:30  INFO 10284 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 10284 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T19:13:29.475+05:30 DEBUG 10284 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T19:13:29.476+05:30  INFO 10284 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T19:13:35.334+05:30  WARN 10284 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T19:13:36.039+05:30  INFO 10284 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.377 seconds (process running for 7.979)
-2025-04-18T19:13:36.044+05:30  INFO 10284 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T19:13:36.046+05:30  INFO 10284 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T19:18:39.905+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8456 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T19:18:39.909+05:30 DEBUG 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T19:18:39.910+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T19:18:46.118+05:30  WARN 8456 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T19:18:46.863+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.816 seconds (process running for 8.411)
-2025-04-18T19:18:46.868+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T19:18:46.871+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T19:20:41.337+05:30  INFO 8328 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8328 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T19:20:41.341+05:30 DEBUG 8328 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T19:20:41.343+05:30  INFO 8328 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T19:20:46.787+05:30  WARN 8328 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T19:20:47.440+05:30  INFO 8328 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.889 seconds (process running for 7.494)
-2025-04-18T19:20:47.446+05:30  INFO 8328 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T19:20:47.448+05:30  INFO 8328 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T19:34:34.164+05:30  INFO 9060 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 9060 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T19:34:34.168+05:30 DEBUG 9060 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T19:34:34.169+05:30  INFO 9060 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T19:34:38.829+05:30  WARN 9060 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T19:34:39.405+05:30  INFO 9060 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 5.973 seconds (process running for 6.567)
-2025-04-18T19:34:39.414+05:30  INFO 9060 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T19:34:39.415+05:30  INFO 9060 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T19:52:27.846+05:30  INFO 288 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 288 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T19:52:27.850+05:30 DEBUG 288 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T19:52:27.851+05:30  INFO 288 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T19:52:33.698+05:30  WARN 288 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T19:52:34.419+05:30  INFO 288 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.35 seconds (process running for 7.947)
-2025-04-18T19:52:34.426+05:30  INFO 288 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T19:52:34.428+05:30  INFO 288 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:01:05.859+05:30  INFO 7556 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7556 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:01:05.863+05:30 DEBUG 7556 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:01:05.864+05:30  INFO 7556 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:01:10.674+05:30  WARN 7556 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:01:11.317+05:30  INFO 7556 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.184 seconds (process running for 6.92)
-2025-04-18T20:01:11.335+05:30  INFO 7556 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:01:11.350+05:30  INFO 7556 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:08:42.576+05:30  INFO 5176 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 5176 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:08:42.579+05:30 DEBUG 5176 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:08:42.581+05:30  INFO 5176 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:08:47.323+05:30  WARN 5176 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:08:48.063+05:30  INFO 5176 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.216 seconds (process running for 6.791)
-2025-04-18T20:08:48.072+05:30  INFO 5176 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:08:48.072+05:30  INFO 5176 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:18:41.677+05:30  INFO 10888 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 10888 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:18:41.682+05:30 DEBUG 10888 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:18:41.684+05:30  INFO 10888 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:18:47.068+05:30  WARN 10888 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:18:47.731+05:30  INFO 10888 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.806 seconds (process running for 7.477)
-2025-04-18T20:18:47.736+05:30  INFO 10888 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:18:47.740+05:30  INFO 10888 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:19:11.530+05:30  INFO 1136 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 1136 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:19:11.534+05:30 DEBUG 1136 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:19:11.535+05:30  INFO 1136 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:19:16.404+05:30  WARN 1136 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:19:17.077+05:30  INFO 1136 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.291 seconds (process running for 7.067)
-2025-04-18T20:19:17.095+05:30  INFO 1136 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:19:17.099+05:30  INFO 1136 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:19:58.220+05:30  INFO 7468 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7468 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:19:58.224+05:30 DEBUG 7468 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:19:58.225+05:30  INFO 7468 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:20:02.972+05:30  WARN 7468 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:20:03.612+05:30  INFO 7468 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.132 seconds (process running for 6.796)
-2025-04-18T20:20:03.617+05:30  INFO 7468 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:20:03.620+05:30  INFO 7468 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:20:56.333+05:30  INFO 15056 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 15056 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:20:56.342+05:30 DEBUG 15056 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:20:56.343+05:30  INFO 15056 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:21:01.230+05:30  WARN 15056 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:21:01.864+05:30  INFO 15056 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.378 seconds (process running for 6.927)
-2025-04-18T20:21:01.869+05:30  INFO 15056 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:21:01.871+05:30  INFO 15056 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:22:05.806+05:30  INFO 9636 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 9636 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:22:05.810+05:30 DEBUG 9636 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:22:05.812+05:30  INFO 9636 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:22:11.026+05:30  WARN 9636 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:22:11.659+05:30  INFO 9636 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.588 seconds (process running for 7.208)
-2025-04-18T20:22:11.664+05:30  INFO 9636 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:22:11.667+05:30  INFO 9636 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-18T20:29:09.954+05:30  INFO 13632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 13632 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-18T20:29:09.958+05:30 DEBUG 13632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-18T20:29:09.959+05:30  INFO 13632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-18T20:29:15.420+05:30  WARN 13632 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-18T20:29:15.987+05:30  INFO 13632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.772 seconds (process running for 7.408)
-2025-04-18T20:29:15.992+05:30  INFO 13632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-18T20:29:15.995+05:30  INFO 13632 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T09:55:14.948+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8456 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T09:55:14.950+05:30 DEBUG 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T09:55:14.953+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T09:55:23.899+05:30  WARN 8456 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T09:55:25.042+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 11.015 seconds (process running for 11.664)
+2025-04-19T09:55:25.042+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T09:55:25.058+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T10:02:20.153+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7360 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T10:02:20.160+05:30 DEBUG 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T10:02:20.160+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T10:02:25.636+05:30  WARN 7360 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T10:02:26.308+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.929 seconds (process running for 7.54)
+2025-04-19T10:02:26.308+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T10:02:26.308+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T10:02:54.137+05:30  WARN 7360 --- [employee-payroll] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 2025' could not be parsed at index 3]
+2025-04-19T10:04:02.433+05:30  WARN 7360 --- [employee-payroll] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 mar 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 mar 2025' could not be parsed at index 3]
+2025-04-19T10:08:16.950+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7620 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T10:08:16.955+05:30 DEBUG 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T10:08:16.956+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T10:08:22.280+05:30  WARN 7620 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T10:08:22.937+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.762 seconds (process running for 7.411)
+2025-04-19T10:08:22.952+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T10:08:22.952+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T10:14:55.264+05:30  WARN 7620 --- [employee-payroll] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2025-04-19T10:26:18.139+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 15084 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T10:26:18.143+05:30 DEBUG 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T10:26:18.145+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T10:26:23.628+05:30  WARN 15084 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T10:26:24.349+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.007 seconds (process running for 7.587)
+2025-04-19T10:26:24.349+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T10:26:24.349+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-19T10:27:15.754+05:30 ERROR 15084 --- [employee-payroll] [http-nio-8080-exec-5] .b.e.e.EmployeePayrollExceptionalHandler : Invalid Date Format
+
+org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 mar 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 mar 2025' could not be parsed at index 3
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:184) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "18 mar 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 mar 2025' could not be parsed at index 3
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 5, column: 19] (through reference chain: com.bridgelabz.employee_payroll.dto.EmployeePayrollDTO["startDate"])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1958) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1245) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase._handleDateTimeException(JSR310DeserializerBase.java:176) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:178) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:91) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:37) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.18.jar:6.1.18]
+	... 51 common frames omitted
+Caused by: java.time.format.DateTimeParseException: Text '18 mar 2025' could not be parsed at index 3
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106) ~[na:na]
+	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008) ~[na:na]
+	at java.base/java.time.LocalDate.parse(LocalDate.java:435) ~[na:na]
+	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:176) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
+	... 60 common frames omitted
+
+2025-04-19T10:39:26.922+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14552 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-19T10:39:26.929+05:30 DEBUG 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-19T10:39:26.931+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-19T10:39:35.598+05:30  WARN 14552 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-19T10:39:36.812+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 10.752 seconds (process running for 11.485)
+2025-04-19T10:39:36.812+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-19T10:39:36.812+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
