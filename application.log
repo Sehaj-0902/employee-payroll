@@ -1,32 +1,96 @@
-2025-04-19T00:31:08.533+05:30  WARN 7044 --- [employee-payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s498ms982µs400ns).
-2025-04-19T07:52:26.962+05:30  WARN 7044 --- [employee-payroll] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h21m23s754ms188µs899ns).
-2025-04-19T09:46:59.475+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7204 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T09:46:59.480+05:30 DEBUG 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T09:46:59.483+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T09:47:06.911+05:30  WARN 7204 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T09:47:07.616+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.981 seconds (process running for 9.84)
-2025-04-19T09:47:07.626+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T09:47:07.631+05:30  INFO 7204 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T09:51:03.837+05:30  WARN 7204 --- [employee-payroll] [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 2025' could not be parsed at index 0]
-2025-04-19T09:51:15.608+05:30  WARN 7204 --- [employee-payroll] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 25": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 25' could not be parsed at index 0]
-2025-04-19T09:53:34.502+05:30  WARN 7204 --- [employee-payroll] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 2025' could not be parsed at index 0]
-2025-04-19T09:53:45.374+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7372 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T09:53:45.378+05:30 DEBUG 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T09:53:45.379+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T09:53:50.733+05:30  WARN 7372 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T09:53:51.402+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.811 seconds (process running for 7.485)
-2025-04-19T09:53:51.402+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T09:53:51.417+05:30  INFO 7372 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T09:53:54.854+05:30 ERROR 7372 --- [employee-payroll] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.time.format.DateTimeParseException: Text '18 04 2025' could not be parsed at index 0] with root cause
+2025-04-23T11:15:55.716+05:30  INFO 13588 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 13588 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T11:15:55.730+05:30 DEBUG 13588 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T11:15:55.732+05:30  INFO 13588 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T11:16:04.328+05:30 DEBUG 13588 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T11:16:04.542+05:30  WARN 13588 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T11:16:05.629+05:30  INFO 13588 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 10.965 seconds (process running for 11.872)
+2025-04-23T11:16:05.635+05:30  INFO 13588 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T11:16:05.638+05:30  INFO 13588 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T11:38:42.886+05:30  INFO 11548 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 11548 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T11:38:42.890+05:30 DEBUG 11548 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T11:38:42.891+05:30  INFO 11548 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T11:38:48.465+05:30 DEBUG 11548 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T11:38:48.630+05:30  WARN 11548 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T11:38:49.382+05:30  INFO 11548 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.311 seconds (process running for 7.895)
+2025-04-23T11:38:49.388+05:30  INFO 11548 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T11:38:49.390+05:30  INFO 11548 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T11:42:18.232+05:30  INFO 5324 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 5324 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T11:42:18.236+05:30 DEBUG 5324 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T11:42:18.237+05:30  INFO 5324 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T11:42:23.761+05:30 DEBUG 5324 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T11:42:23.918+05:30  WARN 5324 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T11:42:24.616+05:30  INFO 5324 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.139 seconds (process running for 7.802)
+2025-04-23T11:42:24.620+05:30  INFO 5324 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T11:42:24.622+05:30  INFO 5324 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T11:50:17.477+05:30  INFO 8832 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8832 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T11:50:17.480+05:30 DEBUG 8832 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T11:50:17.481+05:30  INFO 8832 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T11:50:23.923+05:30 DEBUG 8832 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T11:50:24.083+05:30  WARN 8832 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T11:50:24.785+05:30  INFO 8832 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.14 seconds (process running for 8.876)
+2025-04-23T11:50:24.790+05:30  INFO 8832 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T11:50:24.793+05:30  INFO 8832 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T11:50:52.987+05:30  INFO 6388 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 6388 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T11:50:52.994+05:30 DEBUG 6388 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T11:50:52.996+05:30  INFO 6388 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T11:50:58.807+05:30 DEBUG 6388 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T11:50:59.001+05:30  WARN 6388 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T11:50:59.915+05:30  INFO 6388 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.785 seconds (process running for 8.426)
+2025-04-23T11:50:59.919+05:30  INFO 6388 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T11:50:59.922+05:30  INFO 6388 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T11:51:21.932+05:30  INFO 4840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 4840 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T11:51:21.935+05:30 DEBUG 4840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T11:51:21.936+05:30  INFO 4840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T11:51:28.498+05:30 DEBUG 4840 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T11:51:28.741+05:30  WARN 4840 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T11:51:29.625+05:30  INFO 4840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.442 seconds (process running for 9.034)
+2025-04-23T11:51:29.630+05:30  INFO 4840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T11:51:29.632+05:30  INFO 4840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:06:19.830+05:30  INFO 7840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7840 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T13:06:19.830+05:30 DEBUG 7840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T13:06:19.838+05:30  INFO 7840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T13:06:27.091+05:30 DEBUG 7840 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T13:06:27.375+05:30  WARN 7840 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T13:06:28.692+05:30  INFO 7840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 9.757 seconds (process running for 10.448)
+2025-04-23T13:06:28.708+05:30  INFO 7840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T13:06:28.708+05:30  INFO 7840 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:07:16.260+05:30  INFO 4748 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 4748 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T13:07:16.264+05:30 DEBUG 4748 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T13:07:16.265+05:30  INFO 4748 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T13:07:22.520+05:30 DEBUG 4748 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T13:07:22.703+05:30  WARN 4748 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T13:07:23.472+05:30  INFO 4748 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.001 seconds (process running for 8.656)
+2025-04-23T13:07:23.472+05:30  INFO 4748 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T13:07:23.472+05:30  INFO 4748 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:07:43.326+05:30  INFO 14024 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14024 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T13:07:43.332+05:30 DEBUG 14024 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T13:07:43.334+05:30  INFO 14024 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T13:07:50.869+05:30 DEBUG 14024 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T13:07:51.168+05:30  WARN 14024 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T13:07:52.491+05:30  INFO 14024 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 9.958 seconds (process running for 10.574)
+2025-04-23T13:07:52.491+05:30  INFO 14024 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T13:07:52.507+05:30  INFO 14024 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:19:19.070+05:30  INFO 6140 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 6140 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T13:19:19.074+05:30 DEBUG 6140 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T13:19:19.074+05:30  INFO 6140 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T13:19:25.999+05:30 DEBUG 6140 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T13:19:26.340+05:30  WARN 6140 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T13:19:27.343+05:30  INFO 6140 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 9.19 seconds (process running for 9.876)
+2025-04-23T13:19:27.358+05:30  INFO 6140 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T13:19:27.358+05:30  INFO 6140 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:19:57.966+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-2] c.b.e.service.UserService                : Registering user: test@gmail.com
+2025-04-23T13:19:57.981+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-2] c.b.e.service.UserService                : Checking if user exists by email: test@gmail.com
+2025-04-23T13:19:58.699+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-2] c.b.e.service.UserService                : User test@gmail.com registered successfully!
+2025-04-23T13:20:25.059+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Login attempt for user: test@gmail.com
+2025-04-23T13:20:25.059+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Fetching user by email: test@gmail.com
+2025-04-23T13:20:25.069+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:20:25.271+05:30 ERROR 6140 --- [employee-payroll] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 120 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.] with root cause
 
-java.time.format.DateTimeParseException: Text '18 04 2025' could not be parsed at index 0
-	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106) ~[na:na]
-	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008) ~[na:na]
-	at java.base/java.time.LocalDate.parse(LocalDate.java:435) ~[na:na]
-	at java.base/java.time.LocalDate.parse(LocalDate.java:420) ~[na:na]
-	at com.bridgelabz.employee_payroll.model.Employee.<init>(Employee.java:34) ~[classes/:na]
-	at com.bridgelabz.employee_payroll.service.EmployeePayrollService.createEmployeePayrollData(EmployeePayrollService.java:28) ~[classes/:na]
-	at com.bridgelabz.employee_payroll.controller.EmployeePayrollController.createEmployeePayrollData(EmployeePayrollController.java:41) ~[classes/:na]
+io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 120 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.security.Keys.hmacShaKeyFor(Keys.java:96) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at com.bridgelabz.employee_payroll.utility.JwtUtility.generateToken(JwtUtility.java:27) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.service.UserService.loginUser(UserService.java:68) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.controller.UserController.loginUser(UserController.java:28) ~[classes/:na]
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
 	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.18.jar:6.1.18]
@@ -47,6 +111,56 @@ java.time.format.DateTimeParseException: Text '18 04 2025' could not be parsed a
 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at com.bridgelabz.employee_payroll.utility.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:52) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
@@ -76,48 +190,26 @@ java.time.format.DateTimeParseException: Text '18 04 2025' could not be parsed a
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
 
-2025-04-19T09:55:14.948+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8456 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T09:55:14.950+05:30 DEBUG 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T09:55:14.953+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T09:55:23.899+05:30  WARN 8456 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T09:55:25.042+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 11.015 seconds (process running for 11.664)
-2025-04-19T09:55:25.042+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T09:55:25.058+05:30  INFO 8456 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T10:02:20.153+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7360 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T10:02:20.160+05:30 DEBUG 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T10:02:20.160+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T10:02:25.636+05:30  WARN 7360 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T10:02:26.308+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.929 seconds (process running for 7.54)
-2025-04-19T10:02:26.308+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T10:02:26.308+05:30  INFO 7360 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T10:02:54.137+05:30  WARN 7360 --- [employee-payroll] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 04 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 04 2025' could not be parsed at index 3]
-2025-04-19T10:04:02.433+05:30  WARN 7360 --- [employee-payroll] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 mar 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 mar 2025' could not be parsed at index 3]
-2025-04-19T10:08:16.950+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 7620 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T10:08:16.955+05:30 DEBUG 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T10:08:16.956+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T10:08:22.280+05:30  WARN 7620 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T10:08:22.937+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.762 seconds (process running for 7.411)
-2025-04-19T10:08:22.952+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T10:08:22.952+05:30  INFO 7620 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T10:14:55.264+05:30  WARN 7620 --- [employee-payroll] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
-2025-04-19T10:26:18.139+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 15084 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T10:26:18.143+05:30 DEBUG 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T10:26:18.145+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T10:26:23.628+05:30  WARN 15084 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T10:26:24.349+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.007 seconds (process running for 7.587)
-2025-04-19T10:26:24.349+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T10:26:24.349+05:30  INFO 15084 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T10:27:15.754+05:30 ERROR 15084 --- [employee-payroll] [http-nio-8080-exec-5] .b.e.e.EmployeePayrollExceptionalHandler : Invalid Date Format
+2025-04-23T13:23:22.556+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-6] c.b.e.service.UserService                : Registering user: test@gmail.com
+2025-04-23T13:23:22.556+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-6] c.b.e.service.UserService                : Checking if user exists by email: test@gmail.com
+2025-04-23T13:23:22.571+05:30  WARN 6140 --- [employee-payroll] [http-nio-8080-exec-6] c.b.e.service.UserService                : Registration failed: User already exists with email test@gmail.com
+2025-04-23T13:23:30.027+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : Registering user: test1@gmail.com
+2025-04-23T13:23:30.027+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : Checking if user exists by email: test1@gmail.com
+2025-04-23T13:23:30.213+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : User test1@gmail.com registered successfully!
+2025-04-23T13:23:44.317+05:30  INFO 6140 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Login attempt for user: test1@gmail.com
+2025-04-23T13:23:44.317+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Fetching user by email: test1@gmail.com
+2025-04-23T13:23:44.318+05:30 DEBUG 6140 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:23:44.499+05:30 ERROR 6140 --- [employee-payroll] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 120 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.] with root cause
 
-org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "18 mar 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 mar 2025' could not be parsed at index 3
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:184) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.18.jar:6.1.18]
+io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 120 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
+	at io.jsonwebtoken.security.Keys.hmacShaKeyFor(Keys.java:96) ~[jjwt-api-0.11.5.jar:0.11.5]
+	at com.bridgelabz.employee_payroll.utility.JwtUtility.generateToken(JwtUtility.java:27) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.service.UserService.loginUser(UserService.java:68) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.controller.UserController.loginUser(UserController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.18.jar:6.1.18]
 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.18.jar:6.1.18]
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.18.jar:6.1.18]
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.18.jar:6.1.18]
@@ -134,97 +226,54 @@ org.springframework.http.converter.HttpMessageNotReadableException: JSON parse e
 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.18.jar:6.1.18]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at com.bridgelabz.employee_payroll.utility.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:52) ~[classes/:na]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.5.jar:6.3.5]
 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
-Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDate` from String "18 mar 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '18 mar 2025' could not be parsed at index 3
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 5, column: 19] (through reference chain: com.bridgelabz.employee_payroll.dto.EmployeePayrollDTO["startDate"])
-	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1958) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1245) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.datatype.jsr310.deser.JSR310DeserializerBase._handleDateTimeException(JSR310DeserializerBase.java:176) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:178) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:91) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer.deserialize(LocalDateDeserializer.java:37) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.18.jar:6.1.18]
-	... 51 common frames omitted
-Caused by: java.time.format.DateTimeParseException: Text '18 mar 2025' could not be parsed at index 3
-	at java.base/java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:2106) ~[na:na]
-	at java.base/java.time.format.DateTimeFormatter.parse(DateTimeFormatter.java:2008) ~[na:na]
-	at java.base/java.time.LocalDate.parse(LocalDate.java:435) ~[na:na]
-	at com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer._fromString(LocalDateDeserializer.java:176) ~[jackson-datatype-jsr310-2.17.3.jar:2.17.3]
-	... 60 common frames omitted
-
-2025-04-19T10:39:26.922+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14552 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T10:39:26.929+05:30 DEBUG 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T10:39:26.931+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T10:39:35.598+05:30  WARN 14552 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T10:39:36.812+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 10.752 seconds (process running for 11.485)
-2025-04-19T10:39:36.812+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T10:39:36.812+05:30  INFO 14552 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T10:44:14.977+05:30  INFO 13432 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 13432 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T10:44:14.978+05:30 DEBUG 13432 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T10:44:14.983+05:30  INFO 13432 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T10:44:20.318+05:30  WARN 13432 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T10:44:20.971+05:30  INFO 13432 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.773 seconds (process running for 7.379)
-2025-04-19T10:44:20.987+05:30  INFO 13432 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T10:44:20.987+05:30  INFO 13432 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T10:55:07.996+05:30 ERROR 13432 --- [employee-payroll] [http-nio-8080-exec-9] .b.e.e.EmployeePayrollExceptionalHandler : Invalid Date Format
-
-org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Cse')
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:406) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:354) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:184) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:161) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:135) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.39.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.18.jar:6.1.18]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.39.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.39.jar:10.1.39]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.18.jar:6.1.18]
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
@@ -255,70 +304,307 @@ org.springframework.http.converter.HttpMessageNotReadableException: JSON parse e
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
 	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
-Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Cse')
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 8, column: 20] (through reference chain: com.bridgelabz.employee_payroll.dto.EmployeePayrollDTO["department"])
-	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1754) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.DeserializationContext.handleMissingInstantiator(DeserializationContext.java:1379) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromString(StdDeserializer.java:311) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.handleNonArray(StringCollectionDeserializer.java:286) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:194) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:184) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:27) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.impl.FieldProperty.deserializeAndSet(FieldProperty.java:138) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.17.3.jar:2.17.3]
-	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:395) ~[spring-web-6.1.18.jar:6.1.18]
-	... 51 common frames omitted
 
-2025-04-19T11:18:28.956+05:30  INFO 8924 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 8924 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T11:18:28.960+05:30 DEBUG 8924 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T11:18:28.961+05:30  INFO 8924 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T11:18:34.511+05:30  WARN 8924 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T11:18:35.144+05:30  INFO 8924 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.938 seconds (process running for 7.494)
-2025-04-19T11:18:35.150+05:30  INFO 8924 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T11:18:35.153+05:30  INFO 8924 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T11:38:56.234+05:30  INFO 14036 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14036 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T11:38:56.240+05:30 DEBUG 14036 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T11:38:56.241+05:30  INFO 14036 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T11:39:01.684+05:30  WARN 14036 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T11:39:02.188+05:30  INFO 14036 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.704 seconds (process running for 7.245)
-2025-04-19T11:39:02.188+05:30  INFO 14036 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T11:39:02.188+05:30  INFO 14036 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T11:39:20.042+05:30 DEBUG 14036 --- [employee-payroll] [http-nio-8080-exec-2] c.b.e.service.EmployeePayrollService     : Employee Data: Employee(employeeId=0, name=Sehajpreet, salary=6000, gender=female, startDate=2025-03-18, note=I am Sehaj and I work in the CSE department., profilePic=profile1.jpg, departments=[CSE])
-2025-04-19T11:39:29.159+05:30 DEBUG 14036 --- [employee-payroll] [http-nio-8080-exec-3] c.b.e.service.EmployeePayrollService     : Employee Data: Employee(employeeId=0, name=Sehaj, salary=7000, gender=female, startDate=2025-03-18, note=I am Sehaj and I work in the CSE department., profilePic=profile1.jpg, departments=[CSE])
-2025-04-19T11:41:56.177+05:30  INFO 14252 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14252 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T11:41:56.181+05:30 DEBUG 14252 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T11:41:56.182+05:30  INFO 14252 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T11:42:02.023+05:30  WARN 14252 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T11:42:02.554+05:30  INFO 14252 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.128 seconds (process running for 8.03)
-2025-04-19T11:42:02.558+05:30  INFO 14252 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T11:42:02.561+05:30  INFO 14252 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T11:42:33.707+05:30 DEBUG 14252 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.EmployeePayrollService     : Employee Data: Employee(employeeId=0, name=Sehaj, salary=7000, gender=female, startDate=2025-03-18, note=I am Sehaj and I work in the CSE department., profilePic=profile1.jpg, departments=[CSE])
-2025-04-19T11:42:45.989+05:30 DEBUG 14252 --- [employee-payroll] [http-nio-8080-exec-5] c.b.e.service.EmployeePayrollService     : Employee Data: Employee(employeeId=0, name=Sehaj, salary=7000, gender=female, startDate=2025-03-18, note=I am Sehaj and I work in the CSE department., profilePic=profile1.jpg, departments=[CSE])
-2025-04-19T11:43:51.999+05:30  INFO 14348 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 14348 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T11:43:52.002+05:30 DEBUG 14348 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T11:43:52.005+05:30  INFO 14348 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T11:43:58.425+05:30  WARN 14348 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T11:43:59.074+05:30  INFO 14348 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.883 seconds (process running for 8.446)
-2025-04-19T11:43:59.078+05:30  INFO 14348 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T11:43:59.081+05:30  INFO 14348 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T11:44:25.115+05:30 DEBUG 14348 --- [employee-payroll] [http-nio-8080-exec-3] c.b.e.service.EmployeePayrollService     : Employee Data: Employee(employeeId=0, name=Sehaj, salary=7000, gender=female, startDate=2025-03-18, note=I am Sehaj and I work in the CSE department., profilePic=profile1.jpg, departments=[CSE])
-2025-04-19T13:50:26.601+05:30  INFO 3648 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 3648 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T13:50:26.605+05:30 DEBUG 3648 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T13:50:26.605+05:30  INFO 3648 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T13:50:32.625+05:30  WARN 3648 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T13:50:33.203+05:30  INFO 3648 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 7.39 seconds (process running for 8.005)
-2025-04-19T13:50:33.203+05:30  INFO 3648 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T13:50:33.203+05:30  INFO 3648 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
-2025-04-19T13:52:49.152+05:30 DEBUG 3648 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.EmployeePayrollService     : Employee Data: Employee(employeeId=0, name=Alex, salary=50000, gender=male, startDate=2025-03-12, note=I am Alex and I work in the HR department., profilePic=profile2.jpg, departments=[HR])
-2025-04-19T14:11:12.964+05:30  INFO 13380 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 13380 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
-2025-04-19T14:11:12.968+05:30 DEBUG 13380 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
-2025-04-19T14:11:12.969+05:30  INFO 13380 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
-2025-04-19T14:11:20.131+05:30  WARN 13380 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-19T14:11:20.918+05:30  INFO 13380 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.733 seconds (process running for 9.353)
-2025-04-19T14:11:20.934+05:30  INFO 13380 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
-2025-04-19T14:11:20.934+05:30  INFO 13380 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:26:12.115+05:30  INFO 11988 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 11988 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T13:26:12.119+05:30 DEBUG 11988 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T13:26:12.120+05:30  INFO 11988 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T13:26:18.980+05:30 DEBUG 11988 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T13:26:19.154+05:30  WARN 11988 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T13:26:20.338+05:30  INFO 11988 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 9.09 seconds (process running for 9.706)
+2025-04-23T13:26:20.338+05:30  INFO 11988 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T13:26:20.354+05:30  INFO 11988 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:26:22.071+05:30  INFO 11988 --- [employee-payroll] [http-nio-8080-exec-1] c.b.e.service.UserService                : Login attempt for user: test1@gmail.com
+2025-04-23T13:26:22.072+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-1] c.b.e.service.UserService                : Fetching user by email: test1@gmail.com
+2025-04-23T13:26:22.404+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-1] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:26:22.822+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-1] c.b.e.service.UserService                : Login successful for user: test1@gmail.com - Token generated
+2025-04-23T13:27:14.313+05:30  INFO 11988 --- [employee-payroll] [http-nio-8080-exec-3] c.b.e.service.UserService                : Login attempt for user: test1@gmail.com
+2025-04-23T13:27:14.313+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-3] c.b.e.service.UserService                : Fetching user by email: test1@gmail.com
+2025-04-23T13:27:14.315+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-3] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:27:14.510+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-3] c.b.e.service.UserService                : Login successful for user: test1@gmail.com - Token generated
+2025-04-23T13:27:57.416+05:30  INFO 11988 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Login attempt for user: test@gmail.com
+2025-04-23T13:27:57.417+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Fetching user by email: test@gmail.com
+2025-04-23T13:27:57.421+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:27:57.604+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-4] c.b.e.service.UserService                : Login successful for user: test@gmail.com - Token generated
+2025-04-23T13:28:29.856+05:30  INFO 11988 --- [employee-payroll] [http-nio-8080-exec-5] c.b.e.service.UserService                : Login attempt for user: test@gmail.com
+2025-04-23T13:28:29.859+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-5] c.b.e.service.UserService                : Fetching user by email: test@gmail.com
+2025-04-23T13:28:29.865+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-5] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:28:30.048+05:30 DEBUG 11988 --- [employee-payroll] [http-nio-8080-exec-5] c.b.e.service.UserService                : Login successful for user: test@gmail.com - Token generated
+2025-04-23T13:34:49.971+05:30 ERROR 11988 --- [employee-payroll] [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with email: JWT expired at 2025-04-23T08:00:57Z. Current time: 2025-04-23T08:04:49Z, a difference of 232959 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.lambda$loadUserByUsername$0(JwtUserDetailsService.java:19) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.loadUserByUsername(JwtUserDetailsService.java:19) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.utility.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:41) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2025-04-23T13:35:06.433+05:30  INFO 10916 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 20 with PID 10916 (C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll\target\classes started by DELL in C:\Users\DELL\Desktop\bridgelabz-workspace\employee-payroll)
+2025-04-23T13:35:06.439+05:30 DEBUG 10916 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v3.3.10, Spring v6.1.18
+2025-04-23T13:35:06.441+05:30  INFO 10916 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2025-04-23T13:35:13.416+05:30 DEBUG 10916 --- [employee-payroll] [main] c.b.e.utility.JwtRequestFilter           : Filter 'jwtRequestFilter' configured for use
+2025-04-23T13:35:13.598+05:30  WARN 10916 --- [employee-payroll] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T13:35:14.419+05:30  INFO 10916 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 8.794 seconds (process running for 9.464)
+2025-04-23T13:35:14.435+05:30  INFO 10916 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in DEV Environment
+2025-04-23T13:35:14.435+05:30  INFO 10916 --- [employee-payroll] [main] c.b.e.EmployeePayrollApplication         : Employee Payroll DB User is root 
+2025-04-23T13:35:27.341+05:30 ERROR 10916 --- [employee-payroll] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with email: JWT expired at 2025-04-23T08:00:57Z. Current time: 2025-04-23T08:05:27Z, a difference of 270108 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.lambda$loadUserByUsername$0(JwtUserDetailsService.java:19) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.loadUserByUsername(JwtUserDetailsService.java:19) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.utility.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:41) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2025-04-23T13:35:34.063+05:30 ERROR 10916 --- [employee-payroll] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with email: JWT expired at 2025-04-23T08:00:57Z. Current time: 2025-04-23T08:05:34Z, a difference of 277061 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.lambda$loadUserByUsername$0(JwtUserDetailsService.java:19) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.loadUserByUsername(JwtUserDetailsService.java:19) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.utility.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:41) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2025-04-23T13:35:36.363+05:30 ERROR 10916 --- [employee-payroll] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.security.core.userdetails.UsernameNotFoundException: User not found with email: JWT expired at 2025-04-23T08:00:57Z. Current time: 2025-04-23T08:05:36Z, a difference of 279359 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.lambda$loadUserByUsername$0(JwtUserDetailsService.java:19) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.bridgelabz.employee_payroll.service.JwtUserDetailsService.loadUserByUsername(JwtUserDetailsService.java:19) ~[classes/:na]
+	at com.bridgelabz.employee_payroll.utility.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:41) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.5.jar:6.3.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.18.jar:6.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.39.jar:10.1.39]
+	at java.base/java.lang.Thread.run(Thread.java:1623) ~[na:na]
+
+2025-04-23T13:36:41.307+05:30  INFO 10916 --- [employee-payroll] [http-nio-8080-exec-7] c.b.e.service.UserService                : Registering user: sehajpreet.0902@gmail.com
+2025-04-23T13:36:41.311+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-7] c.b.e.service.UserService                : Checking if user exists by email: sehajpreet.0902@gmail.com
+2025-04-23T13:36:41.665+05:30  INFO 10916 --- [employee-payroll] [http-nio-8080-exec-7] c.b.e.service.UserService                : User sehajpreet.0902@gmail.com registered successfully!
+2025-04-23T13:37:22.237+05:30  INFO 10916 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : Login attempt for user: sehajpreet.0902@gmail.com
+2025-04-23T13:37:22.237+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : Fetching user by email: sehajpreet.0902@gmail.com
+2025-04-23T13:37:22.237+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:37:22.473+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-8] c.b.e.service.UserService                : Login successful for user: sehajpreet.0902@gmail.com - Token generated
+2025-04-23T13:38:14.378+05:30  INFO 10916 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Login attempt for user: sehajpreet.0902@gmail.com
+2025-04-23T13:38:14.378+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Fetching user by email: sehajpreet.0902@gmail.com
+2025-04-23T13:38:14.380+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Matching password for login attempt
+2025-04-23T13:38:14.502+05:30 DEBUG 10916 --- [employee-payroll] [http-nio-8080-exec-9] c.b.e.service.UserService                : Login successful for user: sehajpreet.0902@gmail.com - Token generated
